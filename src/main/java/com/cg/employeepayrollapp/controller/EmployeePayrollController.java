@@ -11,12 +11,12 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/employeepayroll")
 public class EmployeePayrollController {
 
-   /*@RequestMapping(value = {"", "/", "/get"})
+   @RequestMapping(value = {"", "/", "/get"})
     public ResponseEntity<String> getEmployeePayrollData() {
         return new ResponseEntity<String>("Get Call Success ", HttpStatus.OK);
     }
 
-    @GetMapping("/get{empId}")
+   /* @GetMapping("/get{empId}")
     public ResponseEntity<String> getEmployeePayrollData(@PathVariable(value = "empId") int empId) {
         return new ResponseEntity<String>("Get Call Success for Id: " + empId, HttpStatus.OK);
     }
